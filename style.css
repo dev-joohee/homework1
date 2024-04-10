@@ -1,31 +1,28 @@
-html{
+html {
     background-color: black;
     color: white;
     margin: 80px;
-    display: flex;
-    flex-flow: column wrap;
-    
+
 }
 
-.main{
+.main {
     width: 420px;
     height: auto;
-    float: left;
 }
-
-.main > h1{
+    
+h1 {
     font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
 }
 
-#position{
+.track {
     display: flex;
-    flex-direction: center;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
-.styled-button{
+.styled-button {
     background-color: white;
-    border: none;
     padding: 10px 20px;
     margin: 5px;
 
@@ -38,75 +35,73 @@ html{
     font-style: italic;
     font-weight: bold;
     border-radius: 3px;
-    border:0;
+    border: 0;
 
 }
 
-#login{
 
-    text-align:center; 
-    display:block; 
-    margin-top: 160px;
+.login{
+    width: 25em;
+    height:auto;
+    margin-left: 800px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.title{
-    font-size: 20px;
-    margin-left: 650px;
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 
-input{
+input {
     width: 300px;
-	height: 40px;
-    
+    height: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+    padding-left: 25px;
+
+    background-position-x: 5px;
     background-position-x: 10px;
-    background-position-y: center;
-    
-    border-radius: 35px;
-    border:0;
-}
-
-
-
-input[type=id] {
-    background-image: url(id.png);
-    background-repeat: no-repeat;  
-    margin-left: 250px;
-    margin-right: 20px;
-    margin-bottom: 15px;
-    padding-left: 25px;
-}
-
-input[type=pw] {
-    background-image: url(pw.png);
     background-repeat: no-repeat;
-    margin-left: 250px;
-    margin-right: 20px;
-    margin-bottom: 15px;
-    padding-left: 25px;
+    background-position-y: center;
 
+    border-radius: 35px;
+    border: 0;
 }
 
-input::placeholder{
+
+input::placeholder {
     color: gray;
     font-weight: bolder;
-    font-style:italic;
+    font-style: italic;
 
 }
 
-input[type=submit] {
-
+.apply {
+ 
     width: 200px;
-	height: 40px;
+    height: 40px;
     color: white;
-
-    margin-left: 250px;
+    
     margin-top: 20px;
     font-size: medium;
-    font-weight : bold;
+    font-weight: bold;
+
+    border-radius: 35px;
+    border: 0;
 
     background-color: orange;
 
-    padding: auto;
-    
 }
